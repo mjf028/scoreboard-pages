@@ -1,0 +1,2 @@
+SCOREBOARD_HEADER = COURTSIDE
+#include? "Local.xcconfig"

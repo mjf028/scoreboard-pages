@@ -1,0 +1,18 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Arduino build output
+build/
+*.bin
+*.elf
+*.map
+
+# Local photo export archives
+/iCloud Photos*.zip
+
+# Xcode per-user files and local build settings
+**/xcuserdata/
+/ios/ScoreboardController/Local.xcconfig
