@@ -31,7 +31,7 @@ The production firmware uses the library's `ICN2038S` driver mode.
 
 ## Controller
 
-ESP32-S3-DevKitC-1 N16R8:
+[Lonely Binary ESP32-S3 N16R8 Gold Edition with IPEX antenna](https://www.amazon.com/dp/B0FFLXM9KL):
 
 - ESP32-S3
 - 16 MB flash
