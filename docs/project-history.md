@@ -33,9 +33,11 @@ The project returned to direct ESP32 drive with a P2 module advertised as a stan
 - HUB75/HUB75E
 - Chipone 2038S-family driver
 
-This geometry matches the type of panel supported much more naturally by the ESP32 HUB75 DMA library.
+This geometry matches the type of panel supported much more naturally by the ESP32 HUB75 DMA library. The original P2 order came to $29.88 for the item and $46.05 delivered.
 
 ## Bring-up
+
+Early on, the replacement P2 panel showed bright green horizontal rows while the sketch still used the old 208×104 dimensions. The project switched the configuration to the replacement panel’s 128×64 geometry. The visible rows alone did not identify the correct driver timing or wiring.
 
 The ESP32-S3 was first validated independently, followed by the buttons. Panel bring-up then established the final custom GPIO map and the working display configuration:
 
@@ -59,7 +61,7 @@ The long-press threshold is 600 ms.
 
 ## Physical completion
 
-The electronics were installed behind the matrix in a finished enclosure with top-mounted buttons, side I/O/power access and a removable rear service panel. Final photographs are in [`images/final/`](images/final/).
+The electronics were installed behind the matrix in a finished enclosure with top-mounted buttons, side I/O/power access and a removable rear service panel. See the [cabinet gallery](https://scoreboard.digitalmf.net/build.html#enclosure) and [installed wiring photos](https://scoreboard.digitalmf.net/wiring.html#inside). The front and rear photographs are in [`images/final/`](images/final/).
 
 ## Bluetooth and iPhone controller
 
