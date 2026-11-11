@@ -16,13 +16,14 @@ This is the hardware record for the completed scoreboard. Where an exact purchas
 | Illuminated momentary buttons | 12 mm illuminated momentary push buttons | 3 | Button set | ≈$8/set | Player One, Player Two and Reset controls |
 | Enclosure | Custom wood box / frame | 1 | Fabricated for project | Not recovered | Supports the panel, controls and electronics |
 | Exterior finish | Mojotone Fender Style Smooth Brown Vinyl Tolex, 54″ × 36″ cut, item 7311003 | 1 cut | [Mojotone](https://mojotone.com/products/fender-style-smooth-brown-vinyl-tolex-54-width?variant=41689733595232) | $22.05 item + $9.95 shipping = $32.00 delivered | Cabinet wrap |
-| Wiring / assembly hardware | Wire, HUB75 ribbon, connectors, fasteners, adhesive and miscellaneous consumables | — | Various | Not recovered | Internal assembly |
+| Tolex adhesive | DAP Weldwood liquid contact cement, 32 fl oz, model 00272 | 1 can | [Lowe’s item #142569](https://www.lowes.com/pd/DAP-Weldwood-Off-white-Contact-Cement-Construction-Adhesive-Actual-Net-Contents-32-fl-oz/3819177) | $23.48 listing / $25.36 with 8% tax | Bonds the vinyl covering to the cabinet |
+| Wiring / assembly hardware | Wire, HUB75 ribbon, connectors, fasteners, and miscellaneous consumables | — | Various | Not recovered | Internal assembly |
 
 ## Known production hardware
 
 The production power path is no longer an unknown: the finished scoreboard uses the **ADRESUNO 5V 10A 50W supply (ASIN B0D76F4W1C)**. The enclosure also uses the **SDTC Tech 5.5×2.5 mm panel-mount DC connector**, while the **Poyiccot panel-mount USB-C extension** provides service/programming access. The ESP32-S3 connects to the matrix through the **LLidgermal HUB75 adapter board**.
 
-The build estimate applies 8% sales tax to Amazon lines, rounded to the nearest cent per line. The panel and Tolex use their delivered costs. The partial estimate is **$173.81**, including **$5.09** Amazon tax and excluding the returned corner-protector selection. Listing figures are budget references.
+The build estimate applies 8% sales tax to Amazon and Lowe’s lines, rounded to the nearest cent per line. The panel and Tolex use their delivered costs. The partial estimate is **$199.17**, including **$6.97** estimated sales tax and excluding the returned corner-protector selection. Listing figures are budget references.
 
 The final P2 panel order was $29.88 for the item, $20.68 shipping, −$20.00 shipping discount, $10.59 import charges, and $4.90 sales tax, for a **$46.05 delivered cost**.
 
@@ -56,7 +57,7 @@ To turn the BOM into an exact project-cost ledger, the remaining useful order de
 
 1. Installed corner protector size and purchase price
 2. Actual paid prices for the ESP32-S3, LLidgermal adapter, ADRESUNO PSU, USB-C extension, and button set
-3. Cabinet wood, adhesive, and fastener costs
+3. Cabinet wood and fastener costs
 4. Miscellaneous connectors, wire and fasteners if consumables are to be included
 
 The component identities are now documented; only the missing historical paid amounts prevent an exact final-build total.

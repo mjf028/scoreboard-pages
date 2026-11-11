@@ -3,7 +3,7 @@ const inputs = [...form.querySelectorAll("input")];
 const total = document.querySelector("#budget-total");
 const detail = document.querySelector("#budget-detail");
 const tax = document.querySelector("#budget-tax");
-const amazonTaxPercent = 8;
+const salesTaxPercent = 8;
 const currency = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
 
 function updateSubtotal() {
@@ -13,12 +13,12 @@ function updateSubtotal() {
   for (const input of entered) {
     const lineCents = Math.round(input.valueAsNumber * 100);
     cents += lineCents;
-    if (input.hasAttribute("data-amazon-tax")) {
-      taxCents += Math.round(lineCents * amazonTaxPercent / 100);
+    if (input.hasAttribute("data-sales-tax")) {
+      taxCents += Math.round(lineCents * salesTaxPercent / 100);
     }
   }
   total.textContent = currency.format((cents + taxCents) / 100);
-  tax.textContent = "Includes " + currency.format(taxCents / 100) + " estimated Amazon sales tax";
+  tax.textContent = "Includes " + currency.format(taxCents / 100) + " estimated sales tax";
   detail.textContent = entered.length + " of " + inputs.length + " line items priced";
 }
 
