@@ -20,3 +20,5 @@ h1,h2{font-family:"Archivo Black","Arial Black","Segoe UI",sans-serif;font-weigh
 .board-specs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:16px}.board-specs dt{font-size:.8rem}.board-specs dd{font-weight:750}
 .component-photos,.iphone-feature{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start;margin:22px 0}.component-photos img{aspect-ratio:1.7;object-fit:cover}.iphone-feature{grid-template-columns:minmax(0,230px) minmax(0,1fr);gap:24px}.iphone-feature figure{max-width:265px}.feature .powered-photo img{aspect-ratio:1.42}.specs dd a{color:inherit}.board-feature[id]{scroll-margin-top:20px}
 @media(max-width:650px){.board-feature,.component-photos,.iphone-feature{grid-template-columns:minmax(0,1fr)}}
+
+.part-photo{display:block;width:min(100%,12rem);margin:.5rem 0;border-radius:8px;overflow:hidden;background:#fff}.part-photo img{aspect-ratio:1.45;object-fit:contain;padding:5px}
