@@ -14,3 +14,9 @@ h1,h2{font-family:"Archivo Black","Arial Black","Segoe UI",sans-serif;font-weigh
 @media(max-width:760px){.hero h1{font-size:clamp(2.75rem,10.7vw,5.4rem)}}
 @media(max-width:450px){.foot{flex-wrap:wrap;gap:9px 15px;padding-block:18px;min-height:0}.foot>a:last-child{white-space:normal}}
 @media(max-width:760px){.guide-layout{grid-template-columns:minmax(0,1fr)}.guide-content{min-width:0}}
+
+.board-feature{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.72fr);gap:clamp(22px,4vw,65px);align-items:center;padding:clamp(18px,3vw,38px);border:1px solid var(--line);border-radius:13px;margin-bottom:24px;background:var(--surface)}
+.board-feature p:not(.eyebrow),.board-specs dt{color:var(--muted)}.board-feature .detail-photo img{aspect-ratio:943/747;object-fit:contain;background:#fff}
+.board-specs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:16px}.board-specs dt{font-size:.8rem}.board-specs dd{font-weight:750}
+.component-photos,.iphone-feature{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start;margin:22px 0}.component-photos img{aspect-ratio:1.7;object-fit:cover}.iphone-feature{grid-template-columns:minmax(0,230px) minmax(0,1fr);gap:24px}.iphone-feature figure{max-width:265px}.feature .powered-photo img{aspect-ratio:1.42}.specs dd a{color:inherit}.board-feature[id]{scroll-margin-top:20px}
+@media(max-width:650px){.board-feature,.component-photos,.iphone-feature{grid-template-columns:minmax(0,1fr)}}
