@@ -6,7 +6,7 @@ This is the hardware record for the completed scoreboard. Where an exact purchas
 
 | Item | Product / specification | Qty used | Purchase reference | Documented price | Role / notes |
 |---|---|---:|---|---:|---|
-| RGB matrix panel | P2 indoor RGB HUB75/HUB75E, 256×128 mm, 128×64, 1/32 scan, SMD1515, Chipone 2038S-family driver | 1 | Original order | $29.88 item / $46.05 delivered | Production display |
+| RGB matrix panel | P2 indoor RGB HUB75/HUB75E, 256×128 mm, 128×64, 1/32 scan, SMD1515, Chipone 2038S-family driver | 1 | [Alibaba · Shenzhen Yao Caixing Electronic](https://www.alibaba.com/product-detail/Indoor-Rgb-P2-Smd-Led-matrix_60808558245.html) | $29.88 item / $46.05 delivered | Production display |
 | ESP32 controller | Lonely Binary ESP32-S3 N16R8 Gold Edition with IPEX antenna, 16 MB flash / 8 MB PSRAM | 1 | [Amazon B0FFLXM9KL](https://www.amazon.com/dp/B0FFLXM9KL) | $19.99 Amazon listing / $21.59 with 8% tax | Main controller; provides Wi-Fi/BLE capability for future expansion |
 | HUB75 adapter | LLidgermal **ESP32 LED Matrix Adapter Board with Dual Power Input & HUB75 Interface** | 1 | [Amazon B0FVNMRRTB](https://www.amazon.com/dp/B0FVNMRRTB) | $24.80 Amazon listing / $26.78 with 8% tax | Connects the ESP32-S3 to the HUB75 panel and provides convenient power distribution; listing supports ESP32/ESP32-S3 |
 | Production power supply | ADRESUNO **5V 10A 50W AC/DC power supply** | 1 | [Amazon B0D76F4W1C](https://www.amazon.com/dp/B0D76F4W1C) | $19.99 Amazon listing / $21.59 with 8% tax | **Final production PSU**; 100–240V AC input, regulated 5V DC / 10A output |
