@@ -6,7 +6,7 @@ This is the hardware record for the completed scoreboard. Where an exact purchas
 
 | Item | Product / specification | Qty used | Purchase reference | Documented price | Role / notes |
 |---|---|---:|---|---:|---|
-| RGB matrix panel | P2 indoor RGB HUB75/HUB75E, 256×128 mm, 128×64, 1/32 scan, SMD1515, Chipone 2038S-family driver | 1 | [Alibaba · Shenzhen Yao Caixing Electronic](https://www.alibaba.com/product-detail/Indoor-Rgb-P2-Smd-Led-matrix_60808558245.html) | $29.88 item / $46.05 delivered | Production display |
+| RGB matrix panel | P2 indoor RGB HUB75/HUB75E, 256×128 mm, 128×64, 1/32 scan, SMD1515, Chipone 2038S-family driver | 1 | [Alibaba · Shenzhen Yao Caixing Electronic](https://www.alibaba.com/product-detail/Indoor-Rgb-P2-Smd-Led-matrix_60808558245.html) | $29.88 item / $46.05 delivered | Production display. Includes the HUB75 ribbon cable and panel power cable. |
 | ESP32 controller | Lonely Binary ESP32-S3 N16R8 Gold Edition with IPEX antenna, 16 MB flash / 8 MB PSRAM | 1 | [Amazon B0FFLXM9KL](https://www.amazon.com/dp/B0FFLXM9KL) | $19.99 Amazon listing / $21.59 with 8% tax | Main controller; provides Wi-Fi/BLE capability for future expansion |
 | HUB75 adapter | LLidgermal **ESP32 LED Matrix Adapter Board with Dual Power Input & HUB75 Interface** | 1 | [Amazon B0FVNMRRTB](https://www.amazon.com/dp/B0FVNMRRTB) | $24.80 Amazon listing / $26.78 with 8% tax | Connects the ESP32-S3 to the HUB75 panel and provides convenient power distribution; listing supports ESP32/ESP32-S3 |
 | Production power supply | ADRESUNO **5V 10A 50W AC/DC power supply** | 1 | [Amazon B0D76F4W1C](https://www.amazon.com/dp/B0D76F4W1C) | $19.99 Amazon listing / $21.59 with 8% tax | **Final production PSU**; 100–240V AC input, regulated 5V DC / 10A output |
@@ -17,7 +17,7 @@ This is the hardware record for the completed scoreboard. Where an exact purchas
 | Enclosure | Custom wood box / frame | 1 | Fabricated for project | Not recovered | Supports the panel, controls and electronics |
 | Exterior finish | Mojotone Fender Style Smooth Brown Vinyl Tolex, 54″ × 36″ cut, item 7311003 | 1 cut | [Mojotone](https://mojotone.com/products/fender-style-smooth-brown-vinyl-tolex-54-width?variant=41689733595232) | $22.05 item + $9.95 shipping = $32.00 delivered | Cabinet wrap |
 | Tolex adhesive | DAP Weldwood liquid contact cement, 32 fl oz, model 00272 | 1 can | [Lowe’s item #142569](https://www.lowes.com/pd/DAP-Weldwood-Off-white-Contact-Cement-Construction-Adhesive-Actual-Net-Contents-32-fl-oz/3819177) | $23.48 listing / $25.36 with 8% tax | Bonds the vinyl covering to the cabinet |
-| Wiring / assembly hardware | Wire, HUB75 ribbon, connectors, fasteners, and miscellaneous consumables | — | Various | Not recovered | Internal assembly |
+| Wiring / assembly hardware | Dupont jumper wires, heat-shrink tubing, cable ties, and other small assembly supplies | — | Various | Not recovered | Internal assembly |
 
 ## Known production hardware
 
