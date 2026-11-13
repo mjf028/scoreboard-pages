@@ -14,7 +14,7 @@ This is the hardware record for the completed scoreboard. Where an exact purchas
 | Panel-mount USB-C extension | Poyiccot **USB 3.1 Type-C panel-mount extension cable**, 1 ft, male-to-female, 10 Gbps / 60W | 1 | [Amazon B086YBP5VW](https://www.amazon.com/dp/B086YBP5VW) | $9.89 Amazon listing / $10.68 with 8% tax | External USB-C access for programming/service without opening the enclosure |
 | Decorative corner protectors | uxcell **Decorative Box Corner Cover / Metal Edge Guard with screws**, gold | 4 | [Amazon B0DBG9KCJX](https://www.amazon.com/dp/B0DBG9KCJX) | $9.89 Amazon listing / $10.68 with 8% tax | Brass/gold-tone enclosure corner protection. Check the size against your enclosure. |
 | Illuminated momentary buttons | FILN 12 mm illuminated momentary push buttons, three-pack | 3 | [Amazon B0FN72KPG6](https://www.amazon.com/dp/B0FN72KPG6) | $17.99 Amazon listing / $19.43 with 8% tax | Player One, Player Two and Reset controls |
-| Enclosure | Custom wood box / frame | 1 | Fabricated for project | Not recovered | Supports the panel, controls and electronics |
+| Cabinet materials | 3/4-inch cabinet-grade plywood, assorted wood screws, and wood glue | 1 build | Scrap and supplies on hand | $0.00 | No cabinet materials were purchased for this build. |
 | Exterior finish | Mojotone Fender Style Smooth Brown Vinyl Tolex, 54″ × 36″ cut, item 7311003 | 1 cut | [Mojotone](https://mojotone.com/products/fender-style-smooth-brown-vinyl-tolex-54-width?variant=41689733595232) | $22.05 item + $9.95 shipping = $32.00 delivered | Cabinet wrap |
 | Tolex adhesive | DAP Weldwood liquid contact cement, 32 fl oz, model 00272 | 1 can | [Lowe’s item #142569](https://www.lowes.com/pd/DAP-Weldwood-Off-white-Contact-Cement-Construction-Adhesive-Actual-Net-Contents-32-fl-oz/3819177) | $23.48 listing / $25.36 with 8% tax | Bonds the vinyl covering to the cabinet |
 | Wiring / assembly hardware | Dupont jumper wires, heat-shrink tubing, cable ties, and other small assembly supplies | — | Various | Not recovered | Internal assembly |
@@ -57,7 +57,6 @@ To turn the BOM into an exact project-cost ledger, the remaining useful order de
 
 1. Installed corner protector size and purchase price
 2. Actual paid prices for the ESP32-S3, LLidgermal adapter, ADRESUNO PSU, and USB-C extension
-3. Cabinet wood and fastener costs
-4. Miscellaneous connectors, wire and fasteners if consumables are to be included
+3. Miscellaneous wiring and assembly supply costs
 
 The component identities are now documented; only the missing historical paid amounts prevent an exact final-build total.
